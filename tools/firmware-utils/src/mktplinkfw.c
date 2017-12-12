@@ -170,6 +170,8 @@ static const struct fw_region regions[] = {
 	/* Default region (universal) uses code 0 as well */
 	{"US", 1},
 	{"EU", 0},
+	{"BR", 0},
+	{"VN", 0},
 };
 
 static const struct fw_region * find_region(const char *country) {

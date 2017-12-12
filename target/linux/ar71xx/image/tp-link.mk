@@ -1081,7 +1081,7 @@ define Device/tl-wr940n-v4
   IMAGE/factory-us.bin := append-rootfs | mktplinkfw factory -C US
   IMAGE/factory-eu.bin := append-rootfs | mktplinkfw factory -C EU
   IMAGE/factory-br.bin := append-rootfs | mktplinkfw factory -C BR
-  IMAGE/factory-br.bin := append-rootfs | mktplinkfw factory -C VN
+  IMAGE/factory-vn.bin := append-rootfs | mktplinkfw factory -C VN
 endef
 
 define Device/tl-wr941nd-v2
